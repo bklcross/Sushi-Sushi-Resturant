@@ -15,7 +15,7 @@ export const ActionAreaCard = ({ menuItem }) => {
     return result;
   };
   return (
-    <Card sx={{ width: "50%" }}>
+    <Card sx={{ width: "50%" ,fontFamily: 'Poppins'}}>
       <CardActionArea>
         <CardMedia component="img" height="250" image={url} alt={name} />
         <CardContent>

@@ -4,9 +4,16 @@ import { Nav } from "./components/Nav";
 import { Hero } from "./components/Hero";
 import { Menu } from "./components/Menu";
 
+  const theme = createTheme({
+    typography: {
+      allVariants: {
+        fontFamily: "Poppins",
+      },
+    },
+  });
 export default function App() {
   return (
-    <Box className="App">
+    <Box className="App" theme={ theme}>
       <Nav />
       <Hero />
       <Menu />

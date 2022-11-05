@@ -30,10 +30,12 @@ export const Hero = () => {
     <Box
       sx={{
         position: "relative",
+        fontFamily: 'Poppins'
       }}
     >
       <Box
         sx={{
+          display:'flex',
           position: "absolute",
           zIndex: 1,
           backgroundColor: "rgba(10, 10 ,10, .5)",
@@ -48,12 +50,11 @@ export const Hero = () => {
             color: "#ffffff",
             width: "350px",
             margin: "auto",
-            position: "relative",
-            top: "132px",
+            position: "relative"
           }}
         >
-          <Typography variant="h2">Best Sushi in Temecula</Typography>
-          <Typography variant="p">
+          <Typography variant="h2" sx={{fontFamily: 'Poppins', fontSize: '57px'}}>Best Sushi in Temecula</Typography>
+          <Typography variant="p" sx={{fontFamily: 'Poppins'}}>
             We serve only best freshest ingredient, friendly atmosphere, and
             wide sake bar selection
           </Typography>
