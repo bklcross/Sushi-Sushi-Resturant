@@ -22,12 +22,19 @@ export const Nav = () => {
           src={logo}
         />
         <Box>
-          {/* <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
-            About Us
-          </Button> */}
           <Button href="#menu" color="inherit" sx={{ fontFamily: "Poppins" }}>
             Menu
           </Button>
+          <Button
+            href="tel:951-296-0006"
+            color="inherit"
+            sx={{ fontFamily: "Poppins" }}
+          >
+            Call Us (951) 296-0006
+          </Button>
+          {/* <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+            About Us
+          </Button> */}
           {/* <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
             Contact Us
           </Button> */}

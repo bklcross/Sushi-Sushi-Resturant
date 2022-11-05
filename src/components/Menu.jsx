@@ -165,19 +165,18 @@ export const Menu = () => {
           position: "sticky",
           height: "fit-content",
           top: "16px",
-          maxHeight: "75vh",
-          overflowY: "scroll",
+          borderRadius: "10px",
+          backgroundColor: "#ffffff",
+          padding: "32px",
         }}
         className="menu-sidebar"
       >
         <Box
           sx={{
-            borderRadius: "10px",
+            maxHeight: "75vh",
             display: "flex",
             flexDirection: "column",
-            margin: "16px 0 16px 32px",
-            padding: "32px",
-            backgroundColor: "#ffffff",
+            overflowY: "scroll",
           }}
         >
           <Button
@@ -448,7 +447,7 @@ export const Menu = () => {
         </Box>
       </Grid>
       <Grid item xs={10} className="menu-content">
-        <Box mr={3} sx={{ display: "flex", flexWrap: "wrap" }}>
+        <Box sx={{ display: "flex", flexWrap: "wrap" }}>
           {renderProductMessage()}
           {renderMenuItems()}
           {renderDisclaimerMessage()}
