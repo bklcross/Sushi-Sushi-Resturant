@@ -7,6 +7,7 @@ import deepFriedRoll from "../img/deepFriedRoll.png";
 import soyPaperRoll from "../img/soyPaperRoll.png";
 import tempuraRoll from "../img/tempuraRoll.png";
 import vegetarianRoll from "../img/vegetarianRoll.png";
+import handRoll from "../img/handRoll.png";
 
 export const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState("tempura_roll");
@@ -77,6 +78,17 @@ export const Menu = () => {
           <img src={soyPaperRoll} alt="soy_paper_roll" width={"30px"} />
           <Typography variant="body2" color="text.secondary">
             Soy Paper Roll
+          </Typography>
+        </Button>
+        <Button
+          onClick={() => {
+            setSelectedMenu("hand_roll");
+          }}
+          sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
+        >
+          <img src={handRoll} alt="hand_roll" width={"30px"} />
+          <Typography variant="body2" color="text.secondary">
+            Hand Roll
           </Typography>
         </Button>
       </Box>
