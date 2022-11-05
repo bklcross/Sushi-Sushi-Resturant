@@ -32,6 +32,7 @@ export const Hero = () => {
         position: "relative",
         fontFamily: "Poppins",
       }}
+      id={"hero"}
     >
       <Box
         sx={{
@@ -94,7 +95,6 @@ export const Hero = () => {
         sliderClass=""
         slidesToSlide={1}
         swipeable
-        height={50}
       >
         {images.map((src) => (
           <img
