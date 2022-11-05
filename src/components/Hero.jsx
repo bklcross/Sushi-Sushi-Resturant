@@ -56,6 +56,7 @@ export const Hero = () => {
           <Typography
             variant="h2"
             sx={{ fontFamily: "Poppins", fontSize: "57px" }}
+            className={"hero-toolbar"}
           >
             Best Sushi in Temecula
           </Typography>

@@ -1,9 +1,4 @@
-import {
-  AppBar,
-  Box,
-  Button,
-  Toolbar,
-} from "@mui/material";
+import { AppBar, Box, Button, Toolbar } from "@mui/material";
 import logo from "../img/logo.png";
 
 export const Nav = () => {
@@ -14,8 +9,9 @@ export const Nav = () => {
           display: "flex",
           justifyContent: "space-between",
           padding: 1,
-          backgroundColor:'#A50113'
+          backgroundColor: "#A50113",
         }}
+        className={"nav-toolbar"}
       >
         <Box
           component="img"
@@ -26,15 +22,15 @@ export const Nav = () => {
           src={logo}
         />
         <Box>
-          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+          {/* <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
             About Us
-          </Button>
-          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+          </Button> */}
+          <Button href="#menu" color="inherit" sx={{ fontFamily: "Poppins" }}>
             Menu
           </Button>
-          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+          {/* <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
             Contact Us
-          </Button>
+          </Button> */}
         </Box>
       </Toolbar>
     </AppBar>

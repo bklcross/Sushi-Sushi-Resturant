@@ -1,3 +1,58 @@
 .container {
   height: 400px;
 }
+
+@media screen and (max-width: 992px) {
+  .nav-toolbar {
+    justify-content: center;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 42px !important;
+  }
+
+  h4 {
+    font-size: 24px !important;
+  }
+
+  #menu {
+    flex-direction: column;
+  }
+
+  .menu-sidebar {
+    position: unset !important;
+    max-width: 100% !important;
+  }
+
+  .menu-sidebar > div {
+    flex-direction: row;
+    margin: 0;
+    overflow: scroll;
+    padding: 0 32px;
+  }
+
+  .menu-sidebar > div > button {
+    margin: 0 16px;
+  }
+
+  .menu-content {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .menu-content > div {
+    margin: 0;
+  }
+
+  .menu-content > div > div {
+    margin: 16px 0;
+    width: 100%;
+  }
+
+  .menu-content > div > div > div {
+    margin: 0;
+  }
+
+  .menu-content > div > div > div > img {
+    height: 150px !important;
+  }
+}

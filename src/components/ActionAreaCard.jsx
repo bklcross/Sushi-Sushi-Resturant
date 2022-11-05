@@ -30,7 +30,7 @@ export const ActionAreaCard = ({ menuItem }) => {
             </Box>
             <Box>
               <Typography variant="h6" color="text.secondary">
-                ${price}
+                {typeof price === "number" ? `$${price.toFixed(2)}` : price}
               </Typography>
             </Box>
           </Box>

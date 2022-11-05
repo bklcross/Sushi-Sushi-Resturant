@@ -252,6 +252,176 @@ export const data = {
       price: 15,
     },
   ],
+  special_roll: [
+    {
+      name: "ALOHA ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["Poki Salad on top"],
+      sauce: [],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667677660/Sushi/aloha_roll_ectd9e.jpg",
+      spicy: false,
+      price: 18,
+    },
+    {
+      name: "ALASKA ROLL",
+      inside: ["Spicy Albacore", "Cucumber"],
+      outside: ["Seared Salmon"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679619/Sushi/alaska_roll_tbklgz.jpg",
+      spicy: true,
+      price: 15,
+    },
+    {
+      name: "CAJUN AHI TUNA ROLL",
+      inside: ["Spic tuna", "Cucumber"],
+      outside: ["Seared TUNA", "Garlic", "Sliced Onion"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/cajun_ahi_tuna_roll_qh2kl1.jpg",
+      spicy: true,
+      price: 15,
+    },
+    {
+      name: "CANON ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["Seared Sea Scallop", "Cooked Shrimp"],
+      sauce: ["Eel sauce", "White Sauce"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679621/Sushi/canon_roll_zwdcqv.jpg",
+      spicy: false,
+      price: 16,
+    },
+    {
+      name: "CATERPILLAR ROLL",
+      inside: ["Crab", "Fresh Water Eel"],
+      outside: ["Avocado"],
+      sauce: ["Eel sauce"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679615/Sushi/caterpillar_roll_ax4jn8.jpg",
+      spicy: false,
+      price: 15,
+    },
+    {
+      name: "DRAGON ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["Fresh Water Eel", "Avocado"],
+      sauce: ["Eel sauce"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/dragon_roll_p2kfjb.jpg",
+      spicy: false,
+      price: 17,
+    },
+    {
+      name: "HAMA HAMA ROLL",
+      inside: ["Spicy Tuna", "Cilantro"],
+      outside: ["Yellowtail", "Sliced Jalapeno"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679886/Sushi/hama_hama_roll_z5gbxn.jpg",
+      spicy: true,
+      price: 16,
+    },
+    {
+      name: "HOT BLONDE",
+      inside: ["Cooked Shrimp", "Spicy Tuna", "Cilantro"],
+      outside: ["Escolar", "Yellowtail", "Sliced Jalapeno"],
+      sauce: ["Sriracha", "House Heat Sauce"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/hot_blonde_roll_mqwnyr.jpg",
+      spicy: true,
+      price: 16,
+    },
+    {
+      name: "HAVANA ROLL( NO RICE )",
+      inside: [
+        "3 Different Fish",
+        "Avocado",
+        "Spicy Tuna",
+        "Kaiware",
+        "Masago",
+      ],
+      outside: ["Cucumber Wrapped"],
+      sauce: ["Spicy Mayo", "Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/havana_roll_kn0qj6.jpg",
+      spicy: true,
+      price: 18,
+    },
+    {
+      name: "HAWAIIAN ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["Tuna"],
+      sauce: [],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/hawaiian_roll_pv6j8v.jpg",
+      spicy: false,
+      price: 15,
+    },
+    {
+      name: "TEMECULA ROLL",
+      inside: ["Cooked Shrimp", "Spicy Tuna"],
+      outside: ["Escolar"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/temecula_roll_znskqd.jpg",
+      spicy: true,
+      price: 14,
+    },
+    {
+      name: "RAINBOW ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["4 Different Fish"],
+      sauce: [],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679619/Sushi/rainbow_roll_pmygas.jpg",
+      spicy: false,
+      price: 14,
+    },
+    {
+      name: "RED DRAGON ROLL",
+      inside: ["Fresh Water Eel", "Crab"],
+      outside: ["Spicy Tuna"],
+      sauce: ["Eel Sauce", "Spic Mayo", "Sriracha"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/red_dragon_roll_alz16r.jpg",
+      spicy: true,
+      price: 14,
+    },
+    {
+      name: "ROLLING PUMPKIN ROLL",
+      inside: ["Ganpyo", "Crab", "Spicy Tuna"],
+      outside: ["Salmon", "Avocado", "Spicy Crab", "Bay Scallop"],
+      sauce: [],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/rollin_pumpkin__roll_hewhry.jpg",
+      spicy: true,
+      price: 17,
+    },
+    {
+      name: "SALMON LOVER ROLL",
+      inside: ["Spicy Salmon", "Cucumber"],
+      outside: ["Salmon"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679615/Sushi/salmon_lover_roll_jyjqda.jpg",
+      spicy: true,
+      price: 15,
+    },
+    {
+      name: "SALMON LEMON ROLL",
+      inside: ["Crab", "Avocado"],
+      outside: ["Salmon", "Sliced Lemon"],
+      sauce: [],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/salmon_lemon_roll_ntdj5r.jpg",
+      spicy: false,
+      price: 15,
+    },
+    {
+      name: "SHADOW RIDGE ROLL",
+      inside: ["Spicy Yellowtail", "Cucumber"],
+      outside: ["Seared Albacore", "Garlic", "Sliced Onion"],
+      sauce: ["Sriracha", "Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/shadow_ridge_roll_dxhnpj.jpg",
+      spicy: true,
+      price: 15,
+    },
+    {
+      name: "TIGER ROLL",
+      inside: ["Spicy Tuna", "Cucumber"],
+      outside: ["Tuna", "Cooked Shrimp"],
+      sauce: ["Ponzu"],
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667679617/Sushi/tiger_roll_b7iazn.jpg",
+      spicy: true,
+      price: 15,
+    },
+  ],
   hand_roll: [
     {
       name: "ALBACORE ROLL",
@@ -495,15 +665,15 @@ export const data = {
       price: 14,
     },
     {
-      name: "Flavor SOJU",
+      name: "FLAVOR SOJU",
       price: 16,
     },
     {
-      name: "Lemon / Cucumber SOJU",
+      name: "LEMON / CUCUMBER SOJU",
       price: 18,
     },
   ],
-  wines: [
+  wine: [
     {
       name: "PLUM WINE (GLASS)",
       price: 6.95,
@@ -661,10 +831,262 @@ export const data = {
       price: 17,
     },
   ],
+  kids_menu: [
+    {
+      name: "CHICKEN TERIYAKI BOWL",
+      price: 9,
+    },
+    {
+      name: "BEEF TERIYAKI BOWL",
+      price: 11,
+    },
+    {
+      name: "GRILLED SALMON",
+      price: 12,
+    },
+    {
+      name: "CHICKEN KATSU",
+      price: 12,
+    },
+    {
+      name: "DON KATSU",
+      price: 10,
+    },
+    {
+      name: "SESAME CHICKEN",
+      price: 10,
+    },
+  ],
   lunch_special: [
     {
-      name: "SALMON CARPACCIO",
+      name: "ROLL COMBO (4PCS CALI, 4PCS SPICY TUNA, 6PCS SHRIMP CRUNCHY ROLL)",
+      price: 16,
+    },
+    {
+      name: "HAND ROLL COMBO (SPICY TUNA , SALMON, CALIFORNIA)",
+      price: 16,
+    },
+    {
+      name: "CHICKEN TERIYAKI BOWL",
+      price: 11,
+    },
+    {
+      name: "BEEF TERIYAKI BOWL(Korean Style)",
+      price: 13,
+    },
+    {
+      name: "CURRY BOWL",
+      price: 10,
+    },
+    {
+      name: "DON KATSU",
+      price: 12,
+    },
+    {
+      name: "CHICKEN KATSU",
+      price: 12,
+    },
+  ],
+  lunch_bento_special: [
+    {
+      name: "VEGETABLE TERIYAKI",
+      price: 11,
+    },
+    {
+      name: "CHICKEN TERIYAKI",
+      price: 14,
+    },
+    {
+      name: "BEEF TERIYAKI (Korean Stvle)",
+      price: 16,
+    },
+    {
+      name: "GRILLED SALMON",
+      price: 15,
+    },
+    {
+      name: "DON KATSU",
+      price: 15,
+    },
+    {
+      name: "CHICKEN KATSU",
+      price: 15,
+    },
+    {
+      name: "SPICY CHICKEN",
+      price: 15,
+    },
+    {
+      name: "SESAME SHRIMP",
+      price: 15,
+    },
+    {
+      name: "SESAME CHICKEN",
+      price: 14,
+    },
+  ],
+  dinner_entree: [
+    {
+      name: "VEGETABLE TERIYAKI",
+      price: 13,
+    },
+    {
+      name: "CHICKEN TERIYAKI",
+      price: 16,
+    },
+    {
+      name: "BEEF TERIYAKI",
+      price: 18,
+    },
+    {
+      name: "GRILLED SALMON",
+      price: 18,
+    },
+    {
+      name: "DON KATSU",
+      price: 16,
+    },
+    {
+      name: "CHICKEN KATSU",
+      price: 16,
+    },
+    {
+      name: "SPICY CHICKEN",
       price: 17,
+    },
+    {
+      name: "CURRY DINNER",
+      price: 16,
+    },
+    {
+      name: "TEMPURA DINNER",
+      price: 17,
+    },
+    {
+      name: "SESAME SHRIMP",
+      price: 19,
+    },
+    {
+      name: "SESAME CHICKEN",
+      price: 16,
+    },
+  ],
+  dinner_sushi_bar: [
+    {
+      name: "CHIRASHI SUSHI",
+      price: 25,
+    },
+    {
+      name: "CHIRASHI SUSHI",
+      price: 25,
+    },
+    {
+      name: "CHIRASHI SUSHI",
+      price: 25,
+    },
+  ],
+  dinner_box_special: [
+    {
+      name: "CHICKEN TERIYAKI",
+      price: 21,
+    },
+    {
+      name: "BEEF TERIYAKI",
+      price: 21,
+    },
+    {
+      name: "GRILLED SALMON",
+      price: 21,
+    },
+    {
+      name: "DON KATSU",
+      price: 21,
+    },
+    {
+      name: "CHICKEN KATSU",
+      price: 21,
+    },
+    {
+      name: "SPICY CHICKEN",
+      price: 21,
+    },
+    {
+      name: "SESAME SHRIMP",
+      price: 21,
+    },
+    {
+      name: "SESAME CHICKEN",
+      price: 21,
+    },
+  ],
+  side: [
+    {
+      name: "MISO SOUP",
+      price: 3,
+    },
+    {
+      name: "STEAMED RICE",
+      price: 2.5,
+    },
+    {
+      name: "SUSHI RICE",
+      price: 3,
+    },
+    {
+      name: "FRESH WASABI",
+      price: 3,
+    },
+  ],
+  noodle_special: [
+    {
+      name: "SEAFOOD KR RAMEN",
+      price: 11,
+    },
+    {
+      name: "KR RAMEN MILD / SPICY",
+      price: 9,
+    },
+    {
+      name: "PLAIN UDON",
+      price: 10,
+    },
+    {
+      name: "TEMPURA UDON",
+      price: 12,
+    },
+    {
+      name: "SEA FOOD UDON",
+      price: 14,
+    },
+  ],
+  sushi_sashimi_plate: [
+    {
+      name: "3KIND SASHIMI ( TUNA,SALMON,YELLOWTAIL)",
+      price: 26,
+    },
+    {
+      name: "5KIND SASHIMI( TUNA, SALMON, YELLOWTAIL, ALBACORE, ESCOLA)",
+      price: 39,
+    },
+    {
+      name: "A SET 6 PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
+      price: 22,
+    },
+    {
+      name: "B SET 8 PCS SUSHI & CA ROLL or SPICY TUNA ROLLt",
+      price: 26,
+    },
+    {
+      name: "C SET 10PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
+      price: 29,
+    },
+    {
+      name: "THE SUSHI SUSHI DELUXE COMBO (10 PCS SUSHI & 5KIND SASHIMI, SPECIAL ROLL,2 HAND ROLL)",
+      price: 75,
+    },
+    {
+      name: "PLATINUM PLATE (CHEF'S CHOICE VARIETY SASHIMI)",
+      price: 120,
     },
   ],
 };
