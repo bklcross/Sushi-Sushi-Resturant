@@ -60,8 +60,12 @@
     height: 400px;
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .container {
     height: 300px;
+  }
+
+  #maps {
+    width: 300px;
   }
 }
