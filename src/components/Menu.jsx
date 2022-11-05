@@ -22,7 +22,7 @@ export const Menu = () => {
   };
 
   return (
-    <Box mt={5} sx={{ display: "flex" }}>
+    <Box mt={5} sx={{ display: "flex"}}>
       <Box sx={{ display: "flex", flexDirection: "column" }}>
         <Button
           onClick={() => {

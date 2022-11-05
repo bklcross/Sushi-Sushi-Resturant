@@ -10,7 +10,12 @@ export const Nav = () => {
   return (
     <AppBar position="static">
       <Toolbar
-        sx={{ display: "flex", justifyContent: "space-between", padding: 1 }}
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          padding: 1,
+          backgroundColor:'#A50113'
+        }}
       >
         <Box
           component="img"
@@ -21,9 +26,15 @@ export const Nav = () => {
           src={logo}
         />
         <Box>
-          <Button color="inherit">About Us</Button>
-          <Button color="inherit">Menu</Button>
-          <Button color="inherit">Contact Us</Button>
+          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+            About Us
+          </Button>
+          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+            Menu
+          </Button>
+          <Button color="inherit" sx={{ fontFamily: "Poppins" }}>
+            Contact Us
+          </Button>
         </Box>
       </Toolbar>
     </AppBar>
