@@ -30,12 +30,12 @@ export const Hero = () => {
     <Box
       sx={{
         position: "relative",
-        fontFamily: 'Poppins'
+        fontFamily: "Poppins",
       }}
     >
       <Box
         sx={{
-          display:'flex',
+          display: "flex",
           position: "absolute",
           zIndex: 1,
           backgroundColor: "rgba(10, 10 ,10, .5)",
@@ -48,13 +48,18 @@ export const Hero = () => {
         <Box
           sx={{
             color: "#ffffff",
-            width: "350px",
+            width: "375px",
             margin: "auto",
-            position: "relative"
+            position: "relative",
           }}
         >
-          <Typography variant="h2" sx={{fontFamily: 'Poppins', fontSize: '57px'}}>Best Sushi in Temecula</Typography>
-          <Typography variant="p" sx={{fontFamily: 'Poppins'}}>
+          <Typography
+            variant="h2"
+            sx={{ fontFamily: "Poppins", fontSize: "57px" }}
+          >
+            Best Sushi in Temecula
+          </Typography>
+          <Typography variant="p" sx={{ fontFamily: "Poppins" }}>
             We serve only best freshest ingredient, friendly atmosphere, and
             wide sake bar selection
           </Typography>
@@ -88,6 +93,7 @@ export const Hero = () => {
         sliderClass=""
         slidesToSlide={1}
         swipeable
+        height={50}
       >
         {images.map((src) => (
           <img

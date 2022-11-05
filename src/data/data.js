@@ -524,83 +524,147 @@ export const data = {
     },
     {
       name: "GARLIC EDAMAME",
-      price: 4.5,
+      price: 6,
     },
     {
       name: "SPICY EDAMAME",
-      price: 4.5,
+      price: 6,
     },
     {
       name: "EGG ROLL((VEGGIE)",
-      price: 4.5,
+      price: 8,
     },
     {
       name: "GYOJA 5PCS",
-      price: 4.5,
+      price: 7,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "SOFT SHELL CRAB",
+      price: 10,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "HAMACHI KAMA",
+      price: 11,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "SALMON KAMA",
+      price: 9,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "MIXED TEMPURA",
+      price: 9,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "VEGETABLE TEMPURA",
+      price: 8,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "SHRIMP TEMPURA",
+      price: 10,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "DYNAMITE",
+      price: 12,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "SHRIMP SHUMAI(DEEP FRIED)",
+      price: 10,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "ORANGE BLOSSOM",
+      price: 12,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "CHERRIE BLOSSOM",
+      price: 12,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "BAKED GREEN MUSSEL 4PCS",
+      price: 8,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "JALAPENO BOMB",
+      price: 8,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "OYSTER HALF SHELL 2PCS",
+      price: 8,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "QUAIL EGG SHOOTER",
+      price: 6,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "OYSTER SHOOTER",
+      price: 8,
     },
     {
-      name: "EDAMAME",
-      price: 4.5,
+      name: "UNI SHOOTER",
+      price: 12,
+    },
+    {
+      name: "VIAGRA SHOOTER",
+      price: 14,
+    },
+  ],
+  salad: [
+    {
+      name: "HOUSE SALAD",
+      price: 4,
+    },
+    {
+      name: "SEAWEED SALAD",
+      price: 7,
+    },
+    {
+      name: "SUSHIBAR SALAD",
+      price: "Ask Server",
+    },
+    {
+      name: "SAMPLER(3KIND)",
+      price: 11,
+    },
+    {
+      name: "SUNOMO SALAD",
+      price: 9,
+    },
+    {
+      name: "CUCUMBER SALAD",
+      price: 5,
+    },
+    {
+      name: "SASHIMI SALAD",
+      price: 17,
+    },
+    {
+      name: "SALMON SKIN SALAD",
+      price: 11,
+    },
+    {
+      name: "AHI TUNA SALAD",
+      price: 16,
+    },
+    {
+      name: "POKE SALAD",
+      price: 20,
+    },
+    {
+      name: "ALBACORE CEVICHE",
+      price: 15,
+    },
+    {
+      name: "TUNA TATAKI CARPACCIO",
+      price: 17,
+    },
+    {
+      name: "SALMON CARPACCIO",
+      price: 17,
+    },
+  ],
+  lunch_special: [
+    {
+      name: "SALMON CARPACCIO",
+      price: 17,
     },
   ],
 };

@@ -15,30 +15,42 @@ export const ActionAreaCard = ({ menuItem }) => {
     return result;
   };
   return (
-    <Card sx={{ width: "50%" ,fontFamily: 'Poppins'}}>
-      <CardActionArea>
+    <Box sx={{ width: "50%" }}>
+      <Card
+        sx={{ fontFamily: "Poppins", borderRadius: "10px", margin: "16px" }}
+      >
         <CardMedia component="img" height="250" image={url} alt={name} />
         <CardContent>
-          <Box sx={{ display: "flex" }}>
-            <Typography gutterBottom variant="h5" component="div">
-              {name}
-            </Typography>
-            {renderSpicy()}
+          <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <Typography mr={1} variant="h5" component="div">
+                {name}
+              </Typography>
+              {renderSpicy()}
+            </Box>
+            <Box>
+              <Typography variant="h6" color="text.secondary">
+                ${price}
+              </Typography>
+            </Box>
           </Box>
-          <Typography variant="body2" color="text.secondary">
-            Inside: {inside ? inside.join(", ") : null}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Oustside: {outside ? outside.join(", ") : null}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Sauce: {sauce ? sauce.join(", ") : null}
-          </Typography>
-          <Typography variant="h6" color="text.secondary">
-            ${price}
-          </Typography>
+          {inside ? (
+            <Typography variant="body2" color="text.secondary">
+              Inside: {inside.join(", ")}
+            </Typography>
+          ) : null}
+          {outside ? (
+            <Typography variant="body2" color="text.secondary">
+              Outside: {outside.join(", ")}
+            </Typography>
+          ) : null}
+          {sauce ? (
+            <Typography variant="body2" color="text.secondary">
+              Sauce: {sauce.join(", ")}
+            </Typography>
+          ) : null}
         </CardContent>
-      </CardActionArea>
-    </Card>
+      </Card>
+    </Box>
   );
 };
