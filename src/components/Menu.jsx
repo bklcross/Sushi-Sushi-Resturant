@@ -26,6 +26,7 @@ import dinnerBoxSpecial from "../img/dinnerBoxSpecial.png";
 import side from "../img/side.png";
 import noodleSpecial from "../img/noodleSpecial.png";
 import sushiSashimiPlate from "../img/sushiSashimiPlate.png";
+import salad from "../img/salad.png";
 
 export const Menu = () => {
   const [selectedMenu, setSelectedMenu] = useState("tempura_roll");
@@ -36,27 +37,34 @@ export const Menu = () => {
 
     switch (selectedMenu) {
       case "kids_menu":
-        message = "Kids Meal Miso Soup Included";
+        message = ["Kids Meal Miso Soup Included"];
         break;
-      case "lunch_special":
-        message = "LUNCH SERVED ONLY DURING 11:30-2:30PM";
+      case ["lunch_special"]:
+        message = [
+          "LUNCH SERVED ONLY DURING 11:30-2:30PM",
+          "SERVED WITH MISO SOUP, HOUSE SALAD",
+        ];
         break;
       case "lunch_bento_special":
-        message =
-          "LUNCH SERVED ONLY DURING 11:30-2:30PM\nSERVED WITH MISO SOUP, HOUSE SALAD AND RICE WITH 4PCS CALI ROLL AND CHOICE OF TEMPURA OR GYOZA";
+        message = [
+          "LUNCH SERVED ONLY DURING 11:30-2:30PM",
+          "SERVED WITH MISO SOUP, HOUSE SALAD AND RICE WITH 4PCS CALI ROLL AND CHOICE OF TEMPURA OR GYOZA",
+        ];
         break;
       case "dinner_entree":
-        message = "served with miso soup, house salad and steamed rice";
+        message = ["served with miso soup, house salad and steamed rice"];
         break;
       case "dinner_sushi_bar":
-        message = "served with miso soup, house salad";
+        message = ["served with miso soup, house salad"];
         break;
       case "dinner_box_special":
-        message =
-          "served with miso soup, house salad,tempura,rice and one BONUS ITEM\nBonus Items: California Roll, Shrimp & Avo Roll, Spicy tuna Roll, Philly Roll, Eel & Avo Roll";
+        message = [
+          "served with miso soup, house salad,tempura,rice and one BONUS ITEM",
+          "Bonus Items: California Roll, Shrimp & Avo Roll, Spicy tuna Roll, Philly Roll, Eel & Avo Roll",
+        ];
         break;
       case "sushi_sashimi_plate":
-        message = "No Substitude";
+        message = ["No Substitutes"];
       default:
         break;
     }
@@ -83,11 +91,13 @@ export const Menu = () => {
               <Typography variant="h4" color="text.secondary">
                 {selectedMenu.replaceAll("_", " ").toUpperCase()}
               </Typography>
-              {message ? (
-                <Typography variant="body2" color="text.secondary">
-                  {message.toUpperCase()}
-                </Typography>
-              ) : null}
+              {message && message.length > 0
+                ? message.map((str) => (
+                    <Typography variant="body2" color="text.secondary">
+                      {str.toUpperCase()}
+                    </Typography>
+                  ))
+                : null}
             </Box>
           </Box>
         </Box>
@@ -376,6 +386,17 @@ export const Menu = () => {
             <img src={appetizer} alt="appetizer" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
               Appetizer
+            </Typography>
+          </Button>
+          <Button
+            onClick={() => {
+              setSelectedMenu("salad");
+            }}
+            sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
+          >
+            <img src={salad} alt="salad" width={"30px"} />
+            <Typography variant="body2" color="text.secondary">
+              Salad
             </Typography>
           </Button>
           <Button

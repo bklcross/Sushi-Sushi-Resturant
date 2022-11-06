@@ -31,7 +31,7 @@ export const data = {
       name: "POPCORN LOBSTER ROLL",
       inside: ["Crab", "Avocado"],
       outside: ["Fried Langostino", "Crunch"],
-      sauce: ["Sriracha", "Eel Sauce", "Spicy Mayo", "Heat Sauce"],
+      sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976679/Sushi/popcorn_lobster_roll_jno0jv.jpg",
       spicy: false,
       price: 23,
@@ -48,7 +48,7 @@ export const data = {
     {
       name: "SHRIMP LOVER ROLL",
       inside: ["Shrimp Tempura", "Crab", "Avocado"],
-      outside: ["Shrimp", "Avocado"],
+      outside: ["Cook Shrimp", "Avocado"],
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976677/Sushi/shrimp_lover_roll_gpzwud.jpg",
       spicy: false,
@@ -200,7 +200,7 @@ export const data = {
       inside: ["Vegetarian Roll"],
       outside: ["Crunch"],
       sauce: [],
-      url: "https://res.cloudinary.com/memescloud/image/upload/v1667606854/Sushi/vegetarian_roll_c7xf2c.jpg",
+      url: "",
       spicy: false,
       price: 10,
     },
@@ -228,7 +228,7 @@ export const data = {
       name: "PINK LADY ROLL",
       inside: ["Shrimp Tempura", "Spicy Crab", "Avocado", "Salmon"],
       outside: [],
-      sauce: ["Eel Sauce", "Spicy Mayo", "Sriracha"],
+      sauce: ["Eel Sauce", "Spicy Mayo"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607251/Sushi/pink_lady_roll_orb9j4.jpg",
       spicy: true,
       price: 15,
@@ -734,7 +734,7 @@ export const data = {
       price: 6,
     },
     {
-      name: "EGG ROLL((VEGGIE)",
+      name: "EGG ROLL(VEGGIE)",
       price: 8,
     },
     {
@@ -1106,7 +1106,7 @@ export const data = {
       price: 22,
     },
     {
-      name: "B SET 8 PCS SUSHI & CA ROLL or SPICY TUNA ROLLt",
+      name: "B SET 8 PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
       price: 26,
     },
     {
