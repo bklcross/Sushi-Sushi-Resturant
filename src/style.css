@@ -68,4 +68,12 @@
   #maps {
     width: 300px;
   }
+
+  #info {
+    flex-direction: column-reverse;
+  }
+
+  #info > div {
+    margin-bottom: 32px;
+  }
 }

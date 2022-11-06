@@ -20,9 +20,10 @@ const responsive = {
   },
 };
 const images = [
-  "https://res.cloudinary.com/memescloud/image/upload/v1663976674/Sushi/dragon_roll_j47xlh.jpg",
+  "https://res.cloudinary.com/memescloud/image/upload/v1667698721/Sushi/interior_1_zaqa2l.jpg",
   "https://res.cloudinary.com/memescloud/image/upload/v1663976673/Sushi/deluxe_combo_r7gccn.jpg",
-  "https://res.cloudinary.com/memescloud/image/upload/v1663976669/Sushi/vege_catapillar_roll_zdcysj.jpg",
+  "https://res.cloudinary.com/memescloud/image/upload/v1663976674/Sushi/dragon_roll_j47xlh.jpg",
+  "https://res.cloudinary.com/memescloud/image/upload/v1667698947/Sushi/chirashi_d5obf6.jpg",
 ];
 
 export const Hero = () => {

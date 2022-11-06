@@ -34,17 +34,17 @@ export const ActionAreaCard = ({ menuItem }) => {
               </Typography>
             </Box>
           </Box>
-          {inside ? (
+          {inside.length > 0 ? (
             <Typography variant="body2" color="text.secondary">
               Inside: {inside.join(", ")}
             </Typography>
           ) : null}
-          {outside ? (
+          {outside.length > 0 ? (
             <Typography variant="body2" color="text.secondary">
               Outside: {outside.join(", ")}
             </Typography>
           ) : null}
-          {sauce ? (
+          {sauce.length > 0 ? (
             <Typography variant="body2" color="text.secondary">
               Sauce: {sauce.join(", ")}
             </Typography>
