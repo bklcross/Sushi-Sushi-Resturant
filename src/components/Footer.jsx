@@ -32,9 +32,20 @@ export const Footer = () => {
           <Typography variant="h4" color="#ffffff" sx={{ textAlign: "center" }}>
             Business Hours
           </Typography>
-          <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-            Monday: <i>Closed</i>
-          </Typography>
+          <Box
+            sx={{
+              textAlign: "left",
+              display: "flex",
+              justifyContent: "space-between",
+            }}
+          >
+            <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
+              Monday:
+            </Typography>
+            <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
+              <i>Closed</i>
+            </Typography>
+          </Box>
           <Box
             sx={{
               display: "flex",
