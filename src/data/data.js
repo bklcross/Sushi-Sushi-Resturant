@@ -115,7 +115,7 @@ export const data = {
       inside: ["3 Different Fish", "Cream Cheese", "Avocado"],
       outside: [],
       sauce: ["Eel Sauce"],
-      url: "https://res.cloudinary.com/memescloud/image/upload/v1663976666/Sushi/viva_las_vegas_roll_bjtwul.jpg",
+      url: "https://res.cloudinary.com/memescloud/image/upload/v1667707704/Sushi/viva_las_vegas_roll_m4sexb.jpg",
       spicy: false,
       price: 13,
     },
