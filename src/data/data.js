@@ -7,7 +7,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976665/Sushi/crunch_rainbow_roll_dax58a.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "HOT NIGHT ROLL",
@@ -16,7 +15,6 @@ export const data = {
       sauce: ["Eel Sauce", "Spicy Mayo", "Sriracha"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667605907/Sushi/hot_night_roll_gpeiru.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "MEXICAN ROLL",
@@ -25,7 +23,6 @@ export const data = {
       sauce: ["Sriracha", "Eel Sauce", "Spicy Mayo", "Heat Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606039/Sushi/mexican_roll_jorki0.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "POPCORN LOBSTER ROLL",
@@ -34,7 +31,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976679/Sushi/popcorn_lobster_roll_jno0jv.jpg",
       spicy: false,
-      price: 23,
     },
     {
       name: "POPCORN SCALLOP ROLL",
@@ -43,7 +39,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606118/Sushi/popcorn_scallop_roll_h6qqh8.jpg",
       spicy: false,
-      price: 16,
     },
     {
       name: "SHRIMP LOVER ROLL",
@@ -52,7 +47,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976677/Sushi/shrimp_lover_roll_gpzwud.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "SUNSET ROLL",
@@ -61,7 +55,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976662/Sushi/sunset_roll_lhvrbl.jpg",
       spicy: false,
-      price: 16,
     },
   ],
   deep_fried_roll: [
@@ -72,7 +65,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606200/Sushi/california_tempura_roll_b2prpm.jpg",
       spicy: false,
-      price: 11,
     },
     {
       name: "GOLDEN CALIFORNIA ROLL",
@@ -81,7 +73,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976675/Sushi/golden_california_roll_qvttpn.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "THE SUSHI SUSHI SPECIAL ROLL",
@@ -90,7 +81,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976664/Sushi/sushi_sushi_roll_lrgr98.jpg",
       spicy: true,
-      price: 12,
     },
     {
       name: "PHILLY TEMPURA ROLL",
@@ -99,7 +89,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606334/Sushi/phily_tempura_roll_r4werl.jpg",
       spicy: false,
-      price: 12,
     },
     {
       name: "SHOGUN ROLL",
@@ -108,7 +97,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667698721/Sushi/shogun_roll_twmzgj.jpg",
       spicy: true,
-      price: 13,
     },
     {
       name: "VIVA LAS VEGAS ROLL",
@@ -117,7 +105,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667707704/Sushi/viva_las_vegas_roll_m4sexb.jpg",
       spicy: false,
-      price: 13,
     },
   ],
   baked_roll: [
@@ -128,7 +115,6 @@ export const data = {
       sauce: ["Eel Sauce", "Spicy Mayo", "Sriracha"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976663/Sushi/caliente_roll_u2dfma.jpg",
       spicy: false,
-      price: 13,
     },
     {
       name: "JUMBO VOLCANO ROLL (NO RICE)",
@@ -137,7 +123,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976676/Sushi/jumbo_volcano_roll_yrmfpq.jpg",
       spicy: false,
-      price: 14,
     },
     {
       name: "LOBSTER VOLCANO ROLL",
@@ -146,7 +131,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606643/Sushi/lobster_volcano_roll_rr9jes.jpg",
       spicy: false,
-      price: 23,
     },
     {
       name: "SALMON VOLCANO ROLL",
@@ -155,7 +139,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976677/Sushi/salmon_volcano_roll_tt3jdl.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "SCALLOP VOLCANO ROLL",
@@ -164,7 +147,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976680/Sushi/scallop_volcano_roll_faxfur.jpg",
       spicy: false,
-      price: 15,
     },
   ],
   vegetarian_roll: [
@@ -184,7 +166,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667606854/Sushi/vegetarian_roll_c7xf2c.jpg",
       spicy: false,
-      price: 9,
     },
     {
       name: "VEGETARIAN CATERPILLAR ROLL",
@@ -193,17 +174,15 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976669/Sushi/vege_catapillar_roll_zdcysj.jpg",
       spicy: false,
-      price: 11.5,
     },
-    {
-      name: "CRUNCHY VEGETABLE ROLL",
-      inside: ["Vegetarian Roll"],
-      outside: ["Crunch"],
-      sauce: [],
-      url: "",
-      spicy: false,
-      price: 10,
-    },
+    // {
+    //   name: "CRUNCHY VEGETABLE ROLL",
+    //   inside: ["Vegetarian Roll"],
+    //   outside: ["Crunch"],
+    //   sauce: [],
+    //   url: "",
+    //   spicy: false,
+    // },
     {
       name: "KAPPA MAKI (CUCUMBER ROLL)",
       inside: [],
@@ -211,7 +190,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607095/Sushi/kappa_maki_dwluct.jpg",
       spicy: false,
-      price: 6,
     },
     {
       name: "AVOCADO ROLL",
@@ -220,7 +198,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607168/Sushi/avocado_roll_lekjf6.jpg",
       spicy: false,
-      price: 9,
     },
   ],
   soy_paper_roll: [
@@ -231,7 +208,6 @@ export const data = {
       sauce: ["Eel Sauce", "Spicy Mayo"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607251/Sushi/pink_lady_roll_orb9j4.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "KEVIN SPECIAL ROLL (NO RICE)",
@@ -240,7 +216,6 @@ export const data = {
       sauce: ["Eel Sauce", "Spicy Mayo", "Sriracha"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607344/Sushi/kevin_special_roll_fw7m2n.jpg",
       spicy: true,
-      price: 17,
     },
     {
       name: "PROTEIN ROLL",
@@ -249,7 +224,6 @@ export const data = {
       sauce: ["House Soy Mustard"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976680/Sushi/protein_roll_q4mcdk.jpg",
       spicy: false,
-      price: 19,
     },
     {
       name: "DANCING ROLL",
@@ -258,7 +232,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667698725/Sushi/dancing_roll_xkpphv.jpg",
       spicy: false,
-      price: 14,
     },
     {
       name: "SHRIMP TEMPURA BURRITO",
@@ -267,7 +240,6 @@ export const data = {
       sauce: ["House Soy Sauce", "Spicy Mayo", "Heat Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667698721/Sushi/shrimp_tempura_burrito_sj9hsq.jpg",
       spicy: false,
-      price: 14,
     },
     {
       name: "SUPERMAN BURRITO",
@@ -282,7 +254,6 @@ export const data = {
       sauce: ["House Soy Sauce", "Spicy Mayo", "Heat Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667698724/Sushi/superman_burrito_hrljve.jpg",
       spicy: true,
-      price: 16,
     },
   ],
   special_roll: [
@@ -293,7 +264,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667677660/Sushi/aloha_roll_ectd9e.jpg",
       spicy: false,
-      price: 18,
     },
     {
       name: "ALASKA ROLL",
@@ -302,7 +272,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679619/Sushi/alaska_roll_tbklgz.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "CAJUN AHI TUNA ROLL",
@@ -311,7 +280,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/cajun_ahi_tuna_roll_qh2kl1.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "CANYON ROLL",
@@ -320,7 +288,6 @@ export const data = {
       sauce: ["Eel sauce", "White Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679621/Sushi/canon_roll_zwdcqv.jpg",
       spicy: false,
-      price: 16,
     },
     {
       name: "CATERPILLAR ROLL",
@@ -329,7 +296,6 @@ export const data = {
       sauce: ["Eel sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679615/Sushi/caterpillar_roll_ax4jn8.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "DRAGON ROLL",
@@ -338,7 +304,6 @@ export const data = {
       sauce: ["Eel sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/dragon_roll_p2kfjb.jpg",
       spicy: false,
-      price: 17,
     },
     {
       name: "HAMA HAMA ROLL",
@@ -347,7 +312,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679886/Sushi/hama_hama_roll_z5gbxn.jpg",
       spicy: true,
-      price: 16,
     },
     {
       name: "HOT BLONDE",
@@ -356,7 +320,6 @@ export const data = {
       sauce: ["Sriracha", "House Heat Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/hot_blonde_roll_mqwnyr.jpg",
       spicy: true,
-      price: 16,
     },
     {
       name: "HAVANA ROLL( NO RICE )",
@@ -371,7 +334,6 @@ export const data = {
       sauce: ["Spicy Mayo", "Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/havana_roll_kn0qj6.jpg",
       spicy: true,
-      price: 18,
     },
     {
       name: "HAWAIIAN ROLL",
@@ -380,7 +342,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/hawaiian_roll_pv6j8v.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "TEMECULA ROLL",
@@ -389,7 +350,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/temecula_roll_znskqd.jpg",
       spicy: true,
-      price: 14,
     },
     {
       name: "RAINBOW ROLL",
@@ -398,7 +358,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679619/Sushi/rainbow_roll_pmygas.jpg",
       spicy: false,
-      price: 14,
     },
     {
       name: "RED DRAGON ROLL",
@@ -407,7 +366,6 @@ export const data = {
       sauce: ["Eel Sauce", "Spic Mayo", "Sriracha"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679620/Sushi/red_dragon_roll_alz16r.jpg",
       spicy: true,
-      price: 14,
     },
     {
       name: "ROLLING PUMPKIN ROLL",
@@ -416,7 +374,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/rollin_pumpkin__roll_hewhry.jpg",
       spicy: true,
-      price: 17,
     },
     {
       name: "SALMON LOVER ROLL",
@@ -425,7 +382,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679615/Sushi/salmon_lover_roll_jyjqda.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "SALMON LEMON ROLL",
@@ -434,7 +390,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/salmon_lemon_roll_ntdj5r.jpg",
       spicy: false,
-      price: 15,
     },
     {
       name: "SHADOW RIDGE ROLL",
@@ -443,7 +398,6 @@ export const data = {
       sauce: ["Sriracha", "Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679616/Sushi/shadow_ridge_roll_dxhnpj.jpg",
       spicy: true,
-      price: 15,
     },
     {
       name: "TIGER ROLL",
@@ -452,7 +406,6 @@ export const data = {
       sauce: ["Ponzu"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667679617/Sushi/tiger_roll_b7iazn.jpg",
       spicy: true,
-      price: 15,
     },
   ],
   hand_roll: [
@@ -463,7 +416,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976673/Sushi/albacore_roll_jpu1zk.jpg",
       spicy: false,
-      price: 8,
     },
     {
       name: "TEKKA MAKI (TUNA ROLL)",
@@ -472,7 +424,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976670/Sushi/tekka_maki_mgnwil.jpg",
       spicy: false,
-      price: 8,
     },
     {
       name: "CUCUMBER ROLL (KAPPA MAKI)",
@@ -481,7 +432,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607095/Sushi/kappa_maki_dwluct.jpg",
       spicy: false,
-      price: 6,
     },
     {
       name: "SALMON ROLL",
@@ -490,7 +440,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667608214/Sushi/salmon_roll_knztul.jpg",
       spicy: false,
-      price: 8,
     },
     {
       name: "SALMON SKIN ROLL",
@@ -499,7 +448,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667698721/Sushi/salmon_skin_roll_xwzrl0.jpg",
       spicy: false,
-      price: 8,
     },
     {
       name: "AVOCADO ROLL",
@@ -508,7 +456,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667607168/Sushi/avocado_roll_lekjf6.jpg",
       spicy: false,
-      price: 9,
     },
     {
       name: "YELLOWTAIL ROLL",
@@ -517,7 +464,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625048/Sushi/yellowtail_roll_yqqyjx.jpg",
       spicy: false,
-      price: 9,
     },
     {
       name: "PHILADELPHIA ROLL",
@@ -526,7 +472,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625102/Sushi/philly_roll_qubakg.jpg",
       spicy: false,
-      price: 10,
     },
     {
       name: "CALIFORNIA ROLL",
@@ -535,7 +480,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625181/Sushi/cali_roll_xph091.jpg",
       spicy: false,
-      price: 7.5,
     },
     {
       name: "SPICY TUNA ROLL",
@@ -544,7 +488,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625243/Sushi/spicy_tuna_roll_cipyrv.jpg",
       spicy: true,
-      price: 8,
     },
     {
       name: "EEL & AVOCADO ROLL",
@@ -553,17 +496,15 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625311/Sushi/eel_and_avo_roll_ve1zsb.jpg",
       spicy: false,
-      price: 10,
     },
-    {
-      name: "SHRIMP & AVOCADO ROLL",
-      inside: [],
-      outside: [],
-      sauce: [],
-      url: null,
-      spicy: false,
-      price: 8,
-    },
+    // {
+    //   name: "SHRIMP & AVOCADO ROLL",
+    //   inside: [],
+    //   outside: [],
+    //   sauce: [],
+    //   url: null,
+    //   spicy: false,
+    // },
     {
       name: "SPICY / MILD SCALLOP ROLL",
       inside: [],
@@ -571,7 +512,6 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667625992/Sushi/scallop_roll_hwz6wz.jpg",
       spicy: true,
-      price: 10,
     },
     {
       name: "SHRIMP CRUNCHY ROLL",
@@ -580,7 +520,6 @@ export const data = {
       sauce: ["Eel Sauce"],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667626057/Sushi/shrimp_crunch_roll_xwyipq.jpg",
       spicy: false,
-      price: 12,
     },
     {
       name: "SPIDER ROLL",
@@ -589,537 +528,412 @@ export const data = {
       sauce: [],
       url: "https://res.cloudinary.com/memescloud/image/upload/v1667626101/Sushi/spider_roll_ne1nlf.jpg",
       spicy: false,
-      price: 14,
     },
   ],
   dessert: [
     {
       name: "GREEN TEA ICE CREAM",
-      price: 4,
     },
     {
       name: "VANILLA TEA ICE CREAM",
-      price: 4,
     },
     {
       name: "MOCHI ICE CREAM",
-      price: 5,
     },
   ],
   beverage: [
     {
       name: "SOFT DRINKS",
-      price: 2.75,
     },
     {
       name: "HOT GREEN TEA",
-      price: 2.5,
     },
     {
       name: "ICE GREEN TEA",
-      price: 3,
     },
     {
       name: "ICE TEA",
-      price: 2.5,
     },
     {
       name: "CHAMOMILE TEA",
-      price: 2.5,
     },
     {
       name: "BOTTLE WATER",
-      price: 2,
     },
     {
       name: "SPARKLING WATER",
-      price: 4,
     },
   ],
   beer: [
     {
       name: "JAPANESE BEER SMALL",
-      price: 3.95,
     },
     {
       name: "JAPANESE BEER LARGE",
-      price: 7,
     },
     {
       name: "DRAFT BEER",
-      price: "ASK SERVER",
     },
   ],
   sake: [
     {
       name: "HOT SAKE SMALL",
-      price: 4.5,
     },
     {
       name: "HOT SAKE LARGE",
-      price: 6.95,
     },
     {
       name: "NIGORI (UNFILTERED)",
-      price: 11,
     },
     {
       name: "YUZU SAKE",
-      price: 18,
     },
     {
       name: "ALADIN SAKE",
-      price: 18,
     },
     {
       name: "KIKUSUI SMALL",
-      price: 17,
     },
     {
       name: "KIKUSUI LARGE",
-      price: 45,
     },
     {
       name: "KUROSAWA SMALL",
-      price: 19,
     },
     {
       name: "KUROSAWA LARGE",
-      price: 47,
     },
     {
       name: "FLAVOR SAKE",
-      price: "ASK SERVER",
     },
   ],
   soju: [
     {
       name: "SOJU",
-      price: 14,
     },
     {
       name: "FLAVOR SOJU",
-      price: 16,
     },
     {
       name: "LEMON / CUCUMBER SOJU",
-      price: 18,
     },
   ],
   wine: [
     {
       name: "PLUM WINE (GLASS)",
-      price: 6.95,
     },
     {
       name: "HOUSE WINE (GLASS)",
-      price: 6.95,
     },
     {
       name: "BOTTLE WINE (BOTTLE)",
-      price: 32,
     },
   ],
   appetizer: [
     {
       name: "EDAMAME",
-      price: 4.5,
     },
     {
       name: "GARLIC EDAMAME",
-      price: 6,
     },
     {
       name: "SPICY EDAMAME",
-      price: 6,
     },
     {
       name: "EGG ROLL(VEGGIE)",
-      price: 8,
     },
     {
       name: "GYOJA 5PCS",
-      price: 7,
     },
     {
       name: "SOFT SHELL CRAB",
-      price: 10,
     },
     {
       name: "HAMACHI KAMA",
-      price: 11,
     },
     {
       name: "SALMON KAMA",
-      price: 9,
     },
     {
       name: "MIXED TEMPURA",
-      price: 9,
     },
     {
       name: "VEGETABLE TEMPURA",
-      price: 8,
     },
     {
       name: "SHRIMP TEMPURA",
-      price: 10,
     },
     {
       name: "DYNAMITE",
-      price: 12,
     },
     {
       name: "SHRIMP SHUMAI(DEEP FRIED)",
-      price: 10,
     },
     {
       name: "ORANGE BLOSSOM",
-      price: 12,
     },
     {
       name: "CHERRIE BLOSSOM",
-      price: 12,
     },
     {
       name: "BAKED GREEN MUSSEL 4PCS",
-      price: 8,
     },
     {
       name: "JALAPENO BOMB",
-      price: 8,
     },
     {
       name: "OYSTER HALF SHELL 2PCS",
-      price: 8,
     },
     {
       name: "QUAIL EGG SHOOTER",
-      price: 6,
     },
     {
       name: "OYSTER SHOOTER",
-      price: 8,
     },
     {
       name: "UNI SHOOTER",
-      price: 12,
     },
     {
       name: "VIAGRA SHOOTER",
-      price: 14,
     },
   ],
   salad: [
     {
       name: "HOUSE SALAD",
-      price: 4,
     },
     {
       name: "SEAWEED SALAD",
-      price: 7,
     },
     {
       name: "SUSHIBAR SALAD",
-      price: "Ask Server",
     },
     {
       name: "SAMPLER(3KIND)",
-      price: 11,
     },
     {
       name: "SUNOMO SALAD",
-      price: 9,
     },
     {
       name: "CUCUMBER SALAD",
-      price: 5,
     },
     {
       name: "SASHIMI SALAD",
-      price: 17,
     },
     {
       name: "SALMON SKIN SALAD",
-      price: 11,
     },
     {
       name: "AHI TUNA SALAD",
-      price: 16,
     },
     {
       name: "POKE SALAD",
-      price: 20,
     },
     {
       name: "ALBACORE CEVICHE",
-      price: 15,
     },
     {
       name: "TUNA TATAKI CARPACCIO",
-      price: 17,
     },
     {
       name: "SALMON CARPACCIO",
-      price: 17,
     },
   ],
   kids_menu: [
     {
       name: "CHICKEN TERIYAKI BOWL",
-      price: 9,
     },
     {
       name: "BEEF TERIYAKI BOWL",
-      price: 11,
     },
     {
       name: "GRILLED SALMON",
-      price: 12,
     },
     {
       name: "CHICKEN KATSU",
-      price: 12,
     },
     {
       name: "DON KATSU",
-      price: 10,
     },
     {
       name: "SESAME CHICKEN",
-      price: 10,
     },
   ],
   lunch_special: [
     {
       name: "ROLL COMBO (4PCS CALI, 4PCS SPICY TUNA, 6PCS SHRIMP CRUNCHY ROLL)",
-      price: 16,
     },
     {
       name: "HAND ROLL COMBO (SPICY TUNA , SALMON, CALIFORNIA)",
-      price: 16,
     },
     {
       name: "CHICKEN TERIYAKI BOWL",
-      price: 11,
     },
     {
       name: "BEEF TERIYAKI BOWL(Korean Style)",
-      price: 13,
     },
     {
       name: "CURRY BOWL",
-      price: 10,
     },
     {
       name: "DON KATSU",
-      price: 12,
     },
     {
       name: "CHICKEN KATSU",
-      price: 12,
     },
   ],
   lunch_bento_special: [
     {
       name: "VEGETABLE TERIYAKI",
-      price: 11,
     },
     {
       name: "CHICKEN TERIYAKI",
-      price: 14,
     },
     {
       name: "BEEF TERIYAKI (Korean Stvle)",
-      price: 16,
     },
     {
       name: "GRILLED SALMON",
-      price: 15,
     },
     {
       name: "DON KATSU",
-      price: 15,
     },
     {
       name: "CHICKEN KATSU",
-      price: 15,
     },
     {
       name: "SPICY CHICKEN",
-      price: 15,
     },
     {
       name: "SESAME SHRIMP",
-      price: 15,
     },
     {
       name: "SESAME CHICKEN",
-      price: 14,
     },
   ],
   dinner_entree: [
     {
       name: "VEGETABLE TERIYAKI",
-      price: 13,
     },
     {
       name: "CHICKEN TERIYAKI",
-      price: 16,
     },
     {
       name: "BEEF TERIYAKI",
-      price: 18,
     },
     {
       name: "GRILLED SALMON",
-      price: 18,
     },
     {
       name: "DON KATSU",
-      price: 16,
     },
     {
       name: "CHICKEN KATSU",
-      price: 16,
     },
     {
       name: "SPICY CHICKEN",
-      price: 17,
     },
     {
       name: "CURRY DINNER",
-      price: 16,
     },
     {
       name: "TEMPURA DINNER",
-      price: 17,
     },
     {
       name: "SESAME SHRIMP",
-      price: 19,
     },
     {
       name: "SESAME CHICKEN",
-      price: 16,
     },
   ],
   dinner_sushi_bar: [
     {
       name: "CHIRASHI SUSHI",
-      price: 25,
     },
     {
       name: "UNAGI DON",
-      price: 23,
     },
     {
       name: "POKI BOWL",
-      price: 21,
     },
   ],
   dinner_box_special: [
     {
       name: "CHICKEN TERIYAKI",
-      price: 21,
     },
     {
       name: "BEEF TERIYAKI",
-      price: 21,
     },
     {
       name: "GRILLED SALMON",
-      price: 21,
     },
     {
       name: "DON KATSU",
-      price: 21,
     },
     {
       name: "CHICKEN KATSU",
-      price: 21,
     },
     {
       name: "SPICY CHICKEN",
-      price: 21,
     },
     {
       name: "SESAME SHRIMP",
-      price: 21,
     },
     {
       name: "SESAME CHICKEN",
-      price: 21,
     },
   ],
   side: [
     {
       name: "MISO SOUP",
-      price: 3,
     },
     {
       name: "STEAMED RICE",
-      price: 2.5,
     },
     {
       name: "SUSHI RICE",
-      price: 3,
     },
     {
       name: "FRESH WASABI",
-      price: 3,
     },
   ],
   noodle_special: [
     {
       name: "SEAFOOD KR RAMEN",
-      price: 11,
     },
     {
       name: "KR RAMEN MILD / SPICY",
-      price: 9,
     },
     {
       name: "PLAIN UDON",
-      price: 10,
     },
     {
       name: "TEMPURA UDON",
-      price: 12,
     },
     {
       name: "SEA FOOD UDON",
-      price: 14,
     },
   ],
   sushi_sashimi_plate: [
     {
       name: "3KIND SASHIMI ( TUNA,SALMON,YELLOWTAIL)",
-      price: 26,
     },
     {
       name: "5KIND SASHIMI( TUNA, SALMON, YELLOWTAIL, ALBACORE, ESCOLA)",
-      price: 39,
     },
     {
       name: "A SET 6 PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
-      price: 22,
     },
     {
       name: "B SET 8 PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
-      price: 26,
     },
     {
       name: "C SET 10PCS SUSHI & CA ROLL or SPICY TUNA ROLL",
-      price: 29,
     },
     {
       name: "THE SUSHI SUSHI DELUXE COMBO (10 PCS SUSHI & 5KIND SASHIMI, SPECIAL ROLL,2 HAND ROLL)",
-      price: 75,
     },
     {
       name: "PLATINUM PLATE (CHEF'S CHOICE VARIETY SASHIMI)",
-      price: 120,
     },
   ],
 };

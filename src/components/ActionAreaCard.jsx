@@ -3,7 +3,7 @@ import { CardActionArea } from "@mui/material";
 import spicyIcon from "../img/spicy.png";
 
 export const ActionAreaCard = ({ menuItem }) => {
-  const { name, inside, outside, sauce, url, spicy, price } = menuItem;
+  const { name, inside, outside, sauce, url, spicy } = menuItem;
 
   const renderSpicy = () => {
     let result = null;
@@ -27,11 +27,6 @@ export const ActionAreaCard = ({ menuItem }) => {
                 {name}
               </Typography>
               {renderSpicy()}
-            </Box>
-            <Box>
-              <Typography variant="h6" color="text.secondary">
-                {typeof price === "number" ? `$${price.toFixed(2)}` : price}
-              </Typography>
             </Box>
           </Box>
           {inside.length > 0 ? (
