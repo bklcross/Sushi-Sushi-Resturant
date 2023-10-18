@@ -16,15 +16,15 @@ import beer from "../img/beer.png";
 import wine from "../img/wine.png";
 import soju from "../img/soju.png";
 import sake from "../img/sake.png";
+import chickenWing from "../img/chicken-wing.svg";
 import appetizer from "../img/appetizer.png";
 import kidsMenu from "../img/kidsMenu.png";
-import lunchSpecial from "../img/lunchSpecial.png";
-import lunchBentoSpecial from "../img/lunchBentoSpecial.png";
 import dinnerEntree from "../img/dinnerEntree.png";
 import dinnerSushiBar from "../img/dinnerSushiBar.png";
 import dinnerBoxSpecial from "../img/dinnerBoxSpecial.png";
 import side from "../img/side.png";
-import noodleSpecial from "../img/noodleSpecial.png";
+import noodleSoup from "../img/noodleSoup.png";
+import stirFryNoodle from "../img/stirFryNoodle.png";
 import sushiSashimiPlate from "../img/sushiSashimiPlate.png";
 import salad from "../img/salad.png";
 
@@ -39,25 +39,13 @@ export const Menu = () => {
       case "kids_menu":
         message = ["Kids Meal Miso Soup Included"];
         break;
-      case ["lunch_special"]:
-        message = [
-          "LUNCH SERVED ONLY DURING 11:30-2:30PM",
-          "SERVED WITH MISO SOUP, HOUSE SALAD",
-        ];
-        break;
-      case "lunch_bento_special":
-        message = [
-          "LUNCH SERVED ONLY DURING 11:30-2:30PM",
-          "SERVED WITH MISO SOUP, HOUSE SALAD AND RICE WITH 4PCS CALI ROLL AND CHOICE OF TEMPURA OR GYOZA",
-        ];
-        break;
-      case "dinner_entree":
+      case "main_entree":
         message = ["served with miso soup, house salad and steamed rice"];
         break;
-      case "dinner_sushi_bar":
+      case "sushi_bar":
         message = ["served with miso soup, house salad"];
         break;
-      case "dinner_box_special":
+      case "box_special":
         message = [
           "served with miso soup, house salad,tempura,rice and one BONUS ITEM",
           "Bonus Items: California Roll, Shrimp & Avo Roll, Spicy tuna Roll, Philly Roll, Eel & Avo Roll",
@@ -283,55 +271,29 @@ export const Menu = () => {
           </Button>
           <Button
             onClick={() => {
-              setSelectedMenu("lunch_special");
-            }}
-            sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
-          >
-            <img src={lunchSpecial} alt="lunch_special" width={"30px"} />
-            <Typography variant="body2" color="text.secondary">
-              Lunch Special
-            </Typography>
-          </Button>
-          <Button
-            onClick={() => {
-              setSelectedMenu("lunch_bento_special");
-            }}
-            sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
-          >
-            <img
-              src={lunchBentoSpecial}
-              alt="lunch_bento_special"
-              width={"30px"}
-            />
-            <Typography variant="body2" color="text.secondary">
-              Lunch Bento Special
-            </Typography>
-          </Button>
-          <Button
-            onClick={() => {
-              setSelectedMenu("dinner_entree");
+              setSelectedMenu("main_entree");
             }}
             sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
           >
             <img src={dinnerEntree} alt="dinner_entree" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
-              Dinner Entree
+              Main Entree
             </Typography>
           </Button>
           <Button
             onClick={() => {
-              setSelectedMenu("dinner_sushi_bar");
+              setSelectedMenu("sushi_bar");
             }}
             sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
           >
             <img src={dinnerSushiBar} alt="dinner_sushi_bar" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
-              Dinner Sushi Bar
+              Sushi Bar
             </Typography>
           </Button>
           <Button
             onClick={() => {
-              setSelectedMenu("dinner_box_special");
+              setSelectedMenu("box_special");
             }}
             sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
           >
@@ -341,18 +303,29 @@ export const Menu = () => {
               width={"30px"}
             />
             <Typography variant="body2" color="text.secondary">
-              Dinner Box Special
+              Box Special
             </Typography>
           </Button>
           <Button
             onClick={() => {
-              setSelectedMenu("noodle_special");
+              setSelectedMenu("noodle_soup");
             }}
             sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
           >
-            <img src={noodleSpecial} alt="noodle_special" width={"30px"} />
+            <img src={noodleSoup} alt="noodle_soup" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
-              Noodle Special
+              Noodle Soup
+            </Typography>
+          </Button>
+          <Button
+            onClick={() => {
+              setSelectedMenu("stir_fry_noodle");
+            }}
+            sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
+          >
+            <img src={stirFryNoodle} alt="stir_fry_noodle" width={"30px"} />
+            <Typography variant="body2" color="text.secondary">
+              Stir Fry Noodle
             </Typography>
           </Button>
           <Button
@@ -374,7 +347,7 @@ export const Menu = () => {
           >
             <img src={side} alt="side" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
-              side
+              Side
             </Typography>
           </Button>
           <Button
@@ -386,6 +359,17 @@ export const Menu = () => {
             <img src={appetizer} alt="appetizer" width={"30px"} />
             <Typography variant="body2" color="text.secondary">
               Appetizer
+            </Typography>
+          </Button>
+          <Button
+            onClick={() => {
+              setSelectedMenu("korean_chicken_wing");
+            }}
+            sx={{ display: "flex", flexDirection: "column", marginTop: "10px" }}
+          >
+            <img src={chickenWing} alt="chicken_wing" width={"30px"} />
+            <Typography variant="body2" color="text.secondary">
+              Korean Chicken Wing
             </Typography>
           </Button>
           <Button

@@ -175,14 +175,6 @@ export const data = {
       url: "https://res.cloudinary.com/memescloud/image/upload/v1663976669/Sushi/vege_catapillar_roll_zdcysj.jpg",
       spicy: false,
     },
-    // {
-    //   name: "CRUNCHY VEGETABLE ROLL",
-    //   inside: ["Vegetarian Roll"],
-    //   outside: ["Crunch"],
-    //   sauce: [],
-    //   url: "",
-    //   spicy: false,
-    // },
     {
       name: "KAPPA MAKI (CUCUMBER ROLL)",
       inside: [],
@@ -630,6 +622,7 @@ export const data = {
     },
   ],
   appetizer: [
+  {name: "CALAMARI"},
     {
       name: "EDAMAME",
     },
@@ -697,6 +690,14 @@ export const data = {
       name: "VIAGRA SHOOTER",
     },
   ],
+  korean_chicken_wing: [
+    {
+      name: "Soy Garlic Chicken Wing (Available in 6 or 12 pieces)".toUpperCase()
+    },
+    {
+      name: "Korean Spicy Chili Chicken Wing (Available in 6 or 12 pieces)".toUpperCase()
+    }
+  ],
   salad: [
     {
       name: "HOUSE SALAD",
@@ -758,59 +759,7 @@ export const data = {
       name: "SESAME CHICKEN",
     },
   ],
-  lunch_special: [
-    {
-      name: "ROLL COMBO (4PCS CALI, 4PCS SPICY TUNA, 6PCS SHRIMP CRUNCHY ROLL)",
-    },
-    {
-      name: "HAND ROLL COMBO (SPICY TUNA , SALMON, CALIFORNIA)",
-    },
-    {
-      name: "CHICKEN TERIYAKI BOWL",
-    },
-    {
-      name: "BEEF TERIYAKI BOWL(Korean Style)",
-    },
-    {
-      name: "CURRY BOWL",
-    },
-    {
-      name: "DON KATSU",
-    },
-    {
-      name: "CHICKEN KATSU",
-    },
-  ],
-  lunch_bento_special: [
-    {
-      name: "VEGETABLE TERIYAKI",
-    },
-    {
-      name: "CHICKEN TERIYAKI",
-    },
-    {
-      name: "BEEF TERIYAKI (Korean Stvle)",
-    },
-    {
-      name: "GRILLED SALMON",
-    },
-    {
-      name: "DON KATSU",
-    },
-    {
-      name: "CHICKEN KATSU",
-    },
-    {
-      name: "SPICY CHICKEN",
-    },
-    {
-      name: "SESAME SHRIMP",
-    },
-    {
-      name: "SESAME CHICKEN",
-    },
-  ],
-  dinner_entree: [
+  main_entree: [
     {
       name: "VEGETABLE TERIYAKI",
     },
@@ -830,6 +779,12 @@ export const data = {
       name: "CHICKEN KATSU",
     },
     {
+      name: "DON KATSU CURRY",
+    },
+    {
+      name: "CHICKEN KATSU CURRY",
+    },
+    {
       name: "SPICY CHICKEN",
     },
     {
@@ -844,8 +799,11 @@ export const data = {
     {
       name: "SESAME CHICKEN",
     },
+    {
+      name: "ROLL COMBO (4PCS CALI, 4PCS SPICY TUNA, 6PCS SHRIMP CRUNCHY ROLL)",
+    },
   ],
-  dinner_sushi_bar: [
+  sushi_bar: [
     {
       name: "CHIRASHI SUSHI",
     },
@@ -856,7 +814,7 @@ export const data = {
       name: "POKI BOWL",
     },
   ],
-  dinner_box_special: [
+  box_special: [
     {
       name: "CHICKEN TERIYAKI",
     },
@@ -896,7 +854,21 @@ export const data = {
       name: "FRESH WASABI",
     },
   ],
-  noodle_special: [
+  stir_fry_noodle: [
+    {
+      name: "CHICKEN YAKI UDON",
+    },
+    {
+      name: "BEEF YAKI UDON",
+    },
+    {
+      name: "SEAFOOD YAKI UDON",
+    },
+    {
+      name: "VEGETABLE YAKI UDON",
+    }
+  ],
+  noodle_soup: [
     {
       name: "SEAFOOD KR RAMEN",
     },

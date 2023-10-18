@@ -40,7 +40,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Monday:
+              Mon:
             </Typography>
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
               <i>Closed</i>
@@ -53,7 +53,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Tuesday:
+              Tues:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -61,7 +61,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>4:30 AM - 10:30 PM</i>
+                <i>4:30 PM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -72,7 +72,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Wednesday:
+              Weds:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -80,7 +80,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>4:30 AM - 10:30 PM</i>
+                <i>4:30 PM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -91,7 +91,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Thursday:
+              Thurs:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -99,7 +99,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>4:30 AM - 10:30 PM</i>
+                <i>4:30 PM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -110,7 +110,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Friday:
+              Fri:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -129,7 +129,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Saturday:
+              Sat:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -137,7 +137,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>12:00 PM - 10:30 PM</i>
+                <i>12:00 PM - 11:00 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -148,7 +148,7 @@ export const Footer = () => {
             }}
           >
             <Typography variant="h6" color="#ffffff" sx={{ textAlign: "left" }}>
-              Sunday:
+              Sun:
             </Typography>
             <Box ml={1}>
               <Typography
@@ -156,7 +156,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>3:00 PM - 9:00 PM</i>
+                <i>12:00 PM -10:30 PM</i>
               </Typography>
             </Box>
           </Box>
