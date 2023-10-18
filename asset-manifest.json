@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7d3d3f74.css",
-    "main.js": "/static/js/main.88b1da6e.js",
+    "main.js": "/static/js/main.90ea76bb.js",
     "static/media/logo.png": "/static/media/logo.3d6dd884eaebb177a27f.png",
     "static/media/spicy.png": "/static/media/spicy.346464227a5ed97bf2ca.png",
     "static/media/beer.png": "/static/media/beer.10c309d61ca032a26de3.png",
@@ -10,32 +10,32 @@
     "static/media/vegetarianRoll.png": "/static/media/vegetarianRoll.71c6db53d3a7b4f89717.png",
     "static/media/dinnerBoxSpecial.png": "/static/media/dinnerBoxSpecial.50d1f8c47f78bc91b4f0.png",
     "static/media/handRoll.png": "/static/media/handRoll.bd37c848ddf48b8ac749.png",
+    "static/media/stirFryNoodle.png": "/static/media/stirFryNoodle.b70cf70bc2f814952237.png",
     "static/media/tempuraRoll.png": "/static/media/tempuraRoll.188b287212b814c700bd.png",
     "static/media/deepFriedRoll.png": "/static/media/deepFriedRoll.c646d4dde7cebf86a6ed.png",
     "static/media/salad.png": "/static/media/salad.f80643c387315e3dc765.png",
     "static/media/soyPaperRoll.png": "/static/media/soyPaperRoll.1ff819fc90731fb99aad.png",
     "static/media/specialRoll.png": "/static/media/specialRoll.543ade609b4acd67dc9a.png",
-    "static/media/lunchBentoSpecial.png": "/static/media/lunchBentoSpecial.2c8e9c3b5d3b35425ed1.png",
     "static/media/bakedRoll.png": "/static/media/bakedRoll.c380865e24bf10bc6172.png",
-    "static/media/noodleSpecial.png": "/static/media/noodleSpecial.e0dd1cc773fa54097df6.png",
+    "static/media/noodleSoup.png": "/static/media/noodleSoup.e0dd1cc773fa54097df6.png",
     "static/media/sake.png": "/static/media/sake.c63a7c780c49e94dd1eb.png",
     "static/media/kidsMenu.png": "/static/media/kidsMenu.9575429dd998a7a28e4f.png",
     "static/media/wine.png": "/static/media/wine.6c079954160848c92117.png",
     "static/media/soju.png": "/static/media/soju.d0f0db513c9d540f2762.png",
     "static/media/side.png": "/static/media/side.727d6861a9878c4dceb2.png",
-    "static/media/lunchSpecial.png": "/static/media/lunchSpecial.945389a77f023126eb18.png",
     "static/media/appetizer.png": "/static/media/appetizer.cdadaec6da0834f2ecbd.png",
     "static/media/dinnerEntree.png": "/static/media/dinnerEntree.732db7fd0426e2e68399.png",
     "static/media/dessert.png": "/static/media/dessert.ff0ef90573fb38736864.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/chicken-wing.svg": "/static/media/chicken-wing.5dbbc7015e1b1fd10282e2aff3834aac.svg",
     "index.html": "/index.html",
     "main.7d3d3f74.css.map": "/static/css/main.7d3d3f74.css.map",
-    "main.88b1da6e.js.map": "/static/js/main.88b1da6e.js.map"
+    "main.90ea76bb.js.map": "/static/js/main.90ea76bb.js.map"
   },
   "entrypoints": [
     "static/css/main.7d3d3f74.css",
-    "static/js/main.88b1da6e.js"
+    "static/js/main.90ea76bb.js"
   ]
 }
