@@ -61,14 +61,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>11:30 AM - 2:30 PM</i>
-              </Typography>
-              <Typography
-                variant="h6"
-                color="#ffffff"
-                sx={{ textAlign: "left" }}
-              >
-                <i>4:30 - 9:00 PM</i>
+                <i>4:30 AM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -87,14 +80,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>11:30 AM - 2:30 PM</i>
-              </Typography>
-              <Typography
-                variant="h6"
-                color="#ffffff"
-                sx={{ textAlign: "left" }}
-              >
-                <i>4:30 - 9:00 PM</i>
+                <i>4:30 AM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -113,14 +99,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>11:30 AM - 2:30 PM</i>
-              </Typography>
-              <Typography
-                variant="h6"
-                color="#ffffff"
-                sx={{ textAlign: "left" }}
-              >
-                <i>4:30 - 9:00 PM</i>
+                <i>4:30 AM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -139,14 +118,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>11:30 AM - 2:30 PM</i>
-              </Typography>
-              <Typography
-                variant="h6"
-                color="#ffffff"
-                sx={{ textAlign: "left" }}
-              >
-                <i>4:30 - 9:00 PM</i>
+                <i>4:30 PM - 11:00 PM</i>
               </Typography>
             </Box>
           </Box>
@@ -165,7 +137,7 @@ export const Footer = () => {
                 color="#ffffff"
                 sx={{ textAlign: "left" }}
               >
-                <i>11:30 AM - 9:00 PM</i>
+                <i>12:00 PM - 10:30 PM</i>
               </Typography>
             </Box>
           </Box>
